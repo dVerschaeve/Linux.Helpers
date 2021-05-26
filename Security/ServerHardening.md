@@ -43,7 +43,7 @@ Upload your public key towards the server:
 ssh-keygen -b 4096
 
 # Upload the public key towards the authorized keys
-scp $env:USERPROFILE/.ssh/id_rsa.pub username@serverIP:~/.ssh/authorized_Keys
+scp $env:USERPROFILE/.ssh/id_rsa.pub username@serverIP:~/.ssh/authorized_keys
 ```
 
 ## Lockdown password logon
